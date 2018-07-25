@@ -4,6 +4,12 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-image: url("../img/wall.jpg");
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
 .bookShelf{
     /* position: absolute; */
 }
