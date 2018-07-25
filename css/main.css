@@ -4,6 +4,29 @@
    Author's custom styles
    ========================================================================== */
 
+.bookShelf{
+    /* position: absolute; */
+}
+
+.book {
+    position: absolute;
+    -webkit-filter: grayscale(70%); /* Safari */
+    filter: grayscale(70%);    
+    z-index: 2;
+    top: 25px
+}
+
+.book2 {
+    position: absolute;
+    z-index: 1;
+    top: 130px
+}
+
+.book2:hover {
+    -webkit-filter: grayscale(40%); /* Safari */
+    filter: grayscale(40%);      
+}
+
 
 
 
